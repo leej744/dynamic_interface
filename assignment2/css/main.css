@@ -1,0 +1,271 @@
+/* ------------------ THE WHOLE CANVAS ------------------ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, button, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, textarea, select, input {
+    border: 0;
+    font-weight: normal;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+	background-image:url('1.png');
+}
+
+/* ------------------ UNIVERSAL ------------------ */
+
+	/* ----- CONTAINER ----- */
+
+	.container {
+		margin: auto;
+		position: relative;
+		width: 1000px;
+	}
+
+		/* ----- LOGO ----- */
+
+		h1 {
+			margin: 50px 0;
+		}
+
+    		h1 a {
+				color: #333;
+				font-family: 'quicksandbook';
+				font-size: 30px;
+				text-transform: uppercase;
+				text-transform: uppercase;
+	 			-webkit-transition-property: color, background;
+ 				-webkit-transition-duration: 400ms, 400ms;
+ 				-webkit-transition-timing-function: linear, ease-in;
+				-moz-transition-property: color, background;
+ 				-moz-transition-duration: 400ms, 400ms;
+ 				-moz-transition-timing-function: linear, ease-in;
+    		}
+    
+    		h1 a:hover {
+    			color: #ff2a70;
+				padding-bottom: 3px;
+    		}
+    
+    		h1 sup {
+				font-size: 17px;
+				position: relative;
+				bottom: 9px;
+				vertical-align: 0;
+			}
+
+				.linelogo {
+					background:
+						url(css/2-01.png)
+						no-repeat;
+					height: 60px;
+					left: -57px;
+					position: absolute;
+ 					top: -50px;
+					width: 60px;
+					z-index: -9999;
+				}
+
+		/* ----- NAVIGATION ----- */
+
+		.nav {
+			position: absolute;
+			right: 0;
+			top: 2px;
+		}
+
+			.nav ul {
+				list-style-type: none;
+			}
+
+				.nav li {
+					display: inline;
+					margin-left: 25px;
+				}
+
+					.nav li a {
+						color: #333;
+						font-family: 'quicksandbook';
+						font-size: 17px;
+						text-transform: uppercase;
+	 					-webkit-transition-property: color, background;
+ 						-webkit-transition-duration: 400ms, 400ms;
+ 						-webkit-transition-timing-function: linear, ease-in;
+						-moz-transition-property: color, background;
+ 						-moz-transition-duration: 400ms, 400ms;
+ 						-moz-transition-timing-function: linear, ease-in;
+					}
+
+					.nav li a:hover {
+						color: #ff2a70;
+						padding-bottom: 5px;
+					}
+
+						.lineportfolio {
+							background:
+								url(2-01.png)
+								no-repeat;
+							height: 90px;
+							position: absolute;
+							right: 195px;
+ 							top: -53px;
+							width: 60px;
+						}
+
+						.linecontact {
+							background:
+								url(2-01.png)
+								no-repeat;
+							height: 60px;
+							position: absolute;
+							right: 76px;
+ 							top: -52px;
+							width: 60px;
+						}
+
+		/* ----- TEXT ----- */
+
+		.title h2 {
+			color: #333;
+			font-family: 'quicksandbook';
+			font-size: 50px;
+			line-height: 40px;
+			margin-bottom: 50px;
+			text-transform: uppercase;
+		}
+
+		h3 {
+			color: #333;
+			font-family: 'quicksandbook';
+			font-size: 16px;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+
+		h4  {
+			color: #c2c2c2;
+			font-family: 'quicksandbook';
+			font-size: 14px;
+			line-height: 24px;
+			margin-bottom: 0px;
+			text-transform: uppercase;
+		}
+
+		p {
+			color: #333;
+    		font-family: 'LuxiSansRegular';
+			font-size: 14px;
+			line-height: 20px;
+			padding-bottom: 20px;
+		}
+
+		ul {
+			margin-bottom: 25px;
+		}
+
+			li {
+				color: #333;
+    			font-family: 'LuxiSansRegular';
+				font-size: 14px;
+				list-style-type: none;
+				margin-bottom: 4px;
+			}
+
+			li a {
+				color: #ff2a70;
+				-webkit-transition-property: color, background;
+ 				-webkit-transition-duration: 400ms, 400ms;
+ 				-webkit-transition-timing-function: linear, ease-in;
+				-moz-transition-property: color, background;
+ 				-moz-transition-duration: 400ms, 400ms;
+ 				-moz-transition-timing-function: linear, ease-in;
+			}
+
+
+	
+/* ------------------ HOME ------------------ */
+
+	/* ----- HEADERS ----- */
+
+	h2.hugetype {
+		color: #333;
+		font-family: 'quicksandbook';
+		font-size: 98px;
+		letter-spacing: -2px;
+		line-height: 74px;
+		margin-left: 25px ;
+		text-transform: uppercase;
+	}
+
+		h2.hugetype a {
+			color: #ff2a70;
+		}
+	
+		h2.hugetype a:hover {
+			line-height: 20px;
+		}
+
+	.linelook {
+		background:
+			url(2-01.png)
+			no-repeat;
+		height: 438px;
+		left: -260px;
+		position: absolute;
+ 		top: -65px;
+		width: 438px;
+		z-index: 9999;
+	}
+
+
+.vcenter {
+    position: relative;
+    width: 360px;
+}
+
+::selection {
+	color: #ffe82a;
+}
+
+::-moz-selection {
+	color: #ffe82a;
+}
+
+::-webkit-selection {
+	color: #ffe82a;
+}
+
+/* ------------------ HTML SEMANTICS ------------------ */
+
+header {
+	display: block;	
+}
+
+nav {
+	display: block;	
+}
+
+section {
+	display: block;	
+}
+
+article {
+	display: block;	
+}
+
+aside {
+	display: block;	
+}
+
+footer {
+	display: block;	
+}
